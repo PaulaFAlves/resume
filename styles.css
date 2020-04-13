@@ -70,9 +70,6 @@ section img {
     font-size: 15px;
     font-weight: 500;
 }
-.skillItem {
-    /* line-height: 20px; */
-}
 .skillItem i {
     margin-right: 5px;
 }
@@ -94,6 +91,7 @@ section img {
 }
 .jobDescription {
     margin-bottom: 5px;
+    text-align: justify;
 }
 
 
