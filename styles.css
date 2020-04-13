@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Libre Baskerville', serif;
     font-size: 13px;
+    line-height: 20px;
 }
 .container {
     max-width: 960px;
@@ -17,8 +18,8 @@ section {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-gap: 20px;
-    padding: 24px 0;
-    border-bottom: 1px solid lightgray;
+    padding: 20px 0 15px 0;
+    border-bottom: 3px solid lightgray;
 }
 section:last-child {
     border-bottom: none;
@@ -26,6 +27,7 @@ section:last-child {
 .sectionTitle {
     font-weight: bold;
     font-size: 18px;
+    margin: 0 0 20px 0;
 }
 section img {
     width: 130px;
@@ -68,6 +70,33 @@ section img {
     font-size: 15px;
     font-weight: 500;
 }
+.skillItem {
+    /* line-height: 20px; */
+}
+.skillItem i {
+    margin-right: 5px;
+}
+.jobContainer {
+    border-bottom: 1px solid lightgray;
+    margin: 0 0 20px 0;
+}
+.jobContainer:last-child {
+    border-bottom: none;
+}
+.jobCompany {
+    font-weight: bold;
+}
+.jobTitle, .jobPeriod {
+    font-style: italic;
+}
+.jobPeriod {
+    margin-bottom: 10px;
+}
+.jobDescription {
+    margin-bottom: 5px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
     section {
@@ -106,5 +135,8 @@ section img {
         margin-top: 20px;
         font-size: 12px;
     }
+
+
+
 
 }
