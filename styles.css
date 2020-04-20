@@ -94,6 +94,43 @@ section img {
     text-align: justify;
 }
 
+.portfolioContainer {
+    border-bottom: 1px solid lightgray;
+    margin: 0 0 20px 0;
+}
+.portfolioContainer:last-child {
+    border-bottom: none;
+}
+.portfolioTitle {
+    font-weight: bold;
+}
+.portfolioLink {
+    margin-bottom: 10px;
+}
+.portfolio a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+/*.jobPortfolio {
+    border-bottom: 1px solid lightgray;
+    margin: 0 0 20px 0;
+}
+.jobPortfolio:last-child {
+    border-bottom: none;
+}
+.portfolioLink {
+    border-bottom: 1px solid lightgray;
+    margin: 20px 0 20px 0;
+}
+.portfolioLink:last-child {
+    border-bottom: none;
+}*/
+
 
 
 @media only screen and (max-width: 600px) {
